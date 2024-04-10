@@ -1,9 +1,13 @@
-import React from 'react'
+// react
+import React from 'react';
+
+// router
+import Router from './Router';
 
 export default function App() {
   return (
     <div>
-      <h1>Burger House</h1>
+      <Router />
     </div>
   )
 }
