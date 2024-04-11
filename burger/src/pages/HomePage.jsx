@@ -1,9 +1,12 @@
+// sections
 import HeroTop from '../components/marketing/sections/HeroTop';
+import LastProducts from '../components/marketing/sections/LastProducts';
 
 function HomePage() {
   return (
     <div>
-      <HeroTop />  
+      <HeroTop />
+      <LastProducts />
     </div>
   );
 }

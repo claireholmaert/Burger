@@ -26,7 +26,7 @@ function HeroTop() {
                 </div>
               </div>
             </div>
-            <div className='w-full text-marron text-xl uppercase'>
+            <div className='w-full text-marron text-xl uppercase tracking-widest'>
               <h1 className='mb-3'>Des hamburgers qui réveillent les papilles!</h1>
               <h2 className='shadowTitle font-secondary'>
                 <span className='text-6xl block'>Burger House</span>  
