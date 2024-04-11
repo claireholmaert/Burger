@@ -12,6 +12,10 @@ export default {
       'red': '#bf2222',
       'gray': '#f5f5f5',
     },
+    fontFamily: {
+      'secondary': ["Alfa Slab One"],
+      'button': ["Permanent Marker"],
+    },
     extend: {},
   },
   plugins: [],
