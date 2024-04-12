@@ -10,6 +10,11 @@
 
 body {
   font-family: "Bebas Neue", sans-serif;
+  @apply text-marron;
+}
+
+p {
+  @apply mb-4 text-xl;
 }
 
 .animate {

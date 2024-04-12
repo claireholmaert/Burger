@@ -16,7 +16,6 @@ function LastProducts() {
                     <p className="font-bold">L'Explosion Tex-Mex</p>
                     <p className="text-2xl">Savoureux & relevé</p>
                     </div>
-                 
                 </div>
                 <div className="relative bg-yellow h-full rounded-md p-7">
                     <img src={Image2} className="absolute top-0 left-0 w-full h-full object-cover z-0 rounded-md" alt="Un hamburger vu du dessus avec des frites dans un recipient en forme de bateau et des anneaux d'oignons rouge à côté" />
@@ -24,7 +23,6 @@ function LastProducts() {
                     <p className="font-bold">Le Suprême Saumoné</p>
                     <p className="text-2xl">Frais & délicat</p>
                     </div>
-                    
                 </div>
                 <div className="relative bg-yellow h-full rounded-md p-7">
                     <img src={Image3} className="absolute top-0 left-0 w-full h-full object-cover z-0 rounded-md" alt="Un hamburger veggie" />
