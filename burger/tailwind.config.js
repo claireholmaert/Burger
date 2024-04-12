@@ -14,6 +14,7 @@ export default {
       'red': '#bf2222',
       'red-hover': '#990e0e',
       'gray': '#f5f5f5',
+      'carousel': '#dedede',
     },
     fontFamily: {
       'secondary': ["Alfa Slab One"],
