@@ -16,6 +16,7 @@ export default {
       'gray': '#f5f5f5',
       'black': '#1f2937',
       'carousel': '#dedede',
+      'formulaire': '#9ca3af',
     },
     fontFamily: {
       'secondary': ["Alfa Slab One"],
@@ -24,5 +25,7 @@ export default {
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }

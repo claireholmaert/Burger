@@ -1,4 +1,5 @@
 // sections
+import Booking from '../components/marketing/sections/Booking';
 import Event from '../components/marketing/sections/Event';
 import HeroTop from '../components/marketing/sections/HeroTop';
 import LastProducts from '../components/marketing/sections/LastProducts';
@@ -11,6 +12,7 @@ function HomePage() {
       <LastProducts />
       <Products />
       <Event />
+      <Booking />
     </div>
   );
 }

@@ -36,7 +36,7 @@ function Products() {
             <p className="text-center">
             Une explosion de saveurs envoûtantes.
             </p>
-            <Button className="font-button" color="red">
+            <Button className="font-button tracking-widest" color="red">
                 Commandez
             </Button>
             </div>
@@ -53,7 +53,7 @@ function Products() {
             <p className="text-center">
             Un mariage harmonieux de cultures culinaires.
             </p>
-            <Button className="font-button" color="red">
+            <Button className="font-button tracking-widest" color="red">
                 Commandez
             </Button>
             </div>
@@ -70,7 +70,7 @@ function Products() {
             <p className="text-center">
             Une expérience gustative inoubliable.
             </p>
-            <Button className="font-button" color="red">
+            <Button className="font-button tracking-widest" color="red">
                 Commandez
             </Button>
             </div>
