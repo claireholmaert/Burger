@@ -14,11 +14,13 @@ export default {
       'red': '#bf2222',
       'red-hover': '#990e0e',
       'gray': '#f5f5f5',
+      'black': '#1f2937',
       'carousel': '#dedede',
     },
     fontFamily: {
       'secondary': ["Alfa Slab One"],
       'button': ["Permanent Marker"],
+      'paragraphe': ["Bebas Neue"],
     },
     extend: {},
   },

@@ -15,7 +15,7 @@ function Products() {
       <HeadingTitles variant="h2">
         Toujours de délicieux burger
       </HeadingTitles>
-      <Heading variant="h2" theme="marron">
+      <Heading variant="h2" theme="marron" alignement="center" className="my-5">
         Choississez
         <span className="text-5xl text-red"> & </span>
          savourez
@@ -30,7 +30,7 @@ function Products() {
             <img src={Image1} className="bg-yellow absolute top-0 left-0 w-full h-full object-cover z-0" alt="" />
             </div>
             <div className="flex flex-col items-center px-5 pb-5">
-            <Heading variant="h3">
+            <Heading variant="h3" className="my-5">
             Burger Feu Follet
             </Heading>
             <p className="text-center">
@@ -47,7 +47,7 @@ function Products() {
             <img src={Image2} className="bg-yellow absolute top-0 left-0 w-full h-full object-cover z-0" alt="" />
             </div>
             <div className="flex flex-col items-center px-5 pb-5">
-            <Heading variant="h3">
+            <Heading variant="h3" className="my-5">
             Burger Fusion Extravagant
             </Heading>
             <p className="text-center">
@@ -64,7 +64,7 @@ function Products() {
             <img src={Image3} className="bg-yellow absolute top-0 left-0 w-full h-full object-cover z-0" alt="" />
             </div>
             <div className="flex flex-col items-center px-5 pb-5">
-            <Heading variant="h3">
+            <Heading variant="h3" className="my-5">
             Burger Délice Épicé
             </Heading>
             <p className="text-center">

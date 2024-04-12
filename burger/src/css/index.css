@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* tailwind */
 @tailwind base;
@@ -15,6 +16,11 @@ body {
 
 p {
   @apply mb-4 text-xl;
+}
+
+#carouselParagraphe {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
 
 .animate {
