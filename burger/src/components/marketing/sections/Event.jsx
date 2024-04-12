@@ -28,10 +28,10 @@ const Slide = ({children, image, category, title}) => {
             {children}
             </p>
         </div>
-        <div className="relative bg-yellow w-full h-[400px]">
+        <div className="relative bg-yellow w-full h-[400px] rounded-md">
             <img 
             src={image} 
-            className="absolute bg-yellow top-0 left-0 w-full h-full object-cover object-bottom z-0" 
+            className="absolute rounded-md bg-yellow top-0 left-0 w-full h-full object-cover object-bottom z-0" 
             alt="image d'une athlètes sur une piste"
              />
         </div>
