@@ -37,7 +37,7 @@ function Button({children, className, color, theme}) {
         case 'big': 
         return (
             <div>
-            <button className={`${className} ${background} animate rounded-md px-8 py-4 uppercase shadow-xl text-white text-base font-button ${hoverEffect}`}>
+            <button className={`${className} ${background} animate rounded-md p-4 md:px-8 md:py-4 uppercase shadow-xl text-white text-sm md:text-base font-button ${hoverEffect}`}>
               {children}
             </button>
           </div>
@@ -45,7 +45,7 @@ function Button({children, className, color, theme}) {
         default: 
         return (
             <div>
-            <button className={`${className} ${background} animate rounded-lg px-5 py-3 uppercase shadow-xl text-white text-sm font-button ${hoverEffect}`}>
+            <button className={`${className} ${background} animate rounded-lg px-5 py-3 uppercase shadow-xl text-white text-xs md:text-sm font-button ${hoverEffect}`}>
               {children}
             </button>
           </div>

@@ -23,6 +23,11 @@ p {
   font-weight: 300;
 }
 
+#footerParagraphe {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
 .animate {
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
