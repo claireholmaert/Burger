@@ -73,7 +73,7 @@ function Heading(props) {
     default:
         return (
             <div className={`flex ${align}`}>
-                <h2 className={`${theme === "marron" ? "text-5xl" : "text-3xl"} ${classDefault} ${font} ${color} ${className}`}>
+                <h2 className={`${theme === "marron" ? "text-2xl lg:text-5xl" : "text-3xl"} ${classDefault} ${font} ${color} ${className}`}>
                     {children}
                 </h2>
             </div>
