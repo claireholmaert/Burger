@@ -16,7 +16,7 @@ import Image3 from '../../../../public/medias/images/concert.jpeg';
 
 const Slide = ({children, image, category, title}) => {
     return(
-        <div className="grid grid-cols-2 p-6">
+        <div className="grid md:grid-cols-2 p-6">
         <div className="p-10 mb-10">
             <Heading variant="h4">
                 {category}
@@ -28,7 +28,7 @@ const Slide = ({children, image, category, title}) => {
             {children}
             </p>
         </div>
-        <div className="relative bg-yellow w-full h-[400px] rounded-md">
+        <div className="relative bg-yellow w-full md:h-[400px] rounded-md">
             <img 
             src={image} 
             className="absolute rounded-md bg-yellow top-0 left-0 w-full h-full object-cover object-bottom z-0" 
