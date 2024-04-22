@@ -9,8 +9,8 @@ function Footer() {
     <Container>
       <div className="relative mb-20 p-5 text-white">
         <img src={Image} className="absolute bg-black top-0 left-0 w-full h-full object-cover z-0 rounded-md" alt="un hamburger qui explose" />
-        <div className="relative grid grid-cols-2 z-10">
-            <div className="w-full p-5 mt-20 mb-28">
+        <div className="relative grid md:grid-cols-2 z-10">
+            <div className="w-full p-5 mt-20 md:mb-28">
                 <h2 className="text-5xl">Burger House</h2>
                 <p id="footerParagraphe" className="mt-10">
 Explorez une explosion de saveurs chez BurgerHouse. Dégustez nos burgers artisanaux, frites croustillantes et milkshakes onctueux. Commandez en ligne ou visitez-nous aujourd'hui !
@@ -35,7 +35,7 @@ Explorez une explosion de saveurs chez BurgerHouse. Dégustez nos burgers artisa
                 </div>
             </div>
         </div>
-        <div className="relative flex items-center justify-between z-10">
+        <div className="relative flex items-center justify-between z-10 mt-10 md:mt-0">
             <div className="uppercase ">
                 &copy; burger house 2024. All rights reserved.
             </div>
