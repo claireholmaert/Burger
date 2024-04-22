@@ -10,7 +10,7 @@ function Booking() {
   return (
     <Container>
         <div className="relative mb-20">
-        <img src={Image} className="absolute top-0 -left-60" alt="un hamburger avec de la sauce et du soda" />
+        <img src={Image} className="absolute top-0 -left-60 hidden lg:block" alt="un hamburger avec de la sauce et du soda" />
         <div className="max-w-3xl mx-auto px-10 py-20">
         <Heading variant="h3" alignement="center">
                 Réservation
@@ -18,7 +18,7 @@ function Booking() {
             <Heading alignement="center" theme="marron" className="mt-5">
                 Réservez votre table
             </Heading>
-            <form action="" method="post" className="grid grid-cols-2 gap-x-7 gap-y-6 mt-20">
+            <form action="" method="post" className="grid md:grid-cols-2 gap-x-7 gap-y-6 mt-20">
                 <div>
                     <label htmlFor="name" hidden>Nom</label>
                     <input 
